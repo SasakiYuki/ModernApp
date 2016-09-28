@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_manage"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="" />
+
+        <item
+            android:id="@+id/menu_gallery"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="ギャラリー" />
+
+        <item
+            android:id="@+id/menu_alert"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="アラート" />
+    </group>
+    <item android:title="その他">
+        <menu android:checkableBehavior="single">
+            <item
+                android:id="@+id/menu_save"
+                android:title="セーブ" />
+            <item
+                android:id="@+id/menu_setting"
+                android:title="設定" />
+        </menu>
+    </item>
+</menu>

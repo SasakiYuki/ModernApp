@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_main_linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a\na\na\na\na\na\na\a\na\na\na\na\na\na\na\a\na\na\na\na\na\na\na\a\na\na\na\na\na\na\na\a\na\na\na\na\na\na\na\a\na\na\na\na\na\na\na\a\na\na\na\na\na\na\na\a\na\na\na\na\na\na\na\a\na\na\na\na\na\na\na\a\na\na\na\na\na\na\na\a\na\na\na\na\na\na\na\a\n" />
+
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>
